@@ -20,7 +20,7 @@ import locale
 locale.setlocale(locale.LC_TIME, 'it_IT.utf8')
 colorama.init(autoreset=True)
 
-user_api = '' # <--- INSERISCI QUI LA TUA "USER_API" DA OPENWEATHERMAP.ORG
+user_api = 'f8a728c560cfe1dd86b93f91149f7622' # <--- INSERISCI QUI LA TUA "USER_API" DA OPENWEATHERMAP.ORG
 
 location = input(Fore.WHITE + Style.BRIGHT +"\n\n\n   Inserisci una località: ")
 print (Fore.RESET + Back.RESET +"\n\n")
